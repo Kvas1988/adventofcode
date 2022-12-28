@@ -25,6 +25,8 @@ include_directories(2022)
 #TARGET_LINK_LIBRARIES( adventofcode LINK_PUBLIC ${Boost_LIBRARIES} )
 
 # day 12
-add_library(grid STATIC 2022/day12/grid.cpp)
-add_executable(adventofcode 2022/day12/day12_p1_2.cpp)
-target_link_libraries(adventofcode grid)
+#add_library(grid STATIC 2022/day12/grid.cpp)
+#add_executable(adventofcode 2022/day12/day12_p1_2.cpp)
+#target_link_libraries(adventofcode grid)
+
+add_executable(adventofcode 2022/day13_p2.cpp)
