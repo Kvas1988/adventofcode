@@ -29,4 +29,8 @@ include_directories(2022)
 #add_executable(adventofcode 2022/day12/day12_p1_2.cpp)
 #target_link_libraries(adventofcode grid)
 
-add_executable(adventofcode 2022/day13_p2.cpp)
+#add_executable(adventofcode 2022/day13_p1.cpp)
+#add_executable(adventofcode 2022/day13_p2.cpp)
+
+#add_executable(adventofcode 2022/day14_p1.cpp)
+add_executable(adventofcode 2022/day14_p2.cpp)
